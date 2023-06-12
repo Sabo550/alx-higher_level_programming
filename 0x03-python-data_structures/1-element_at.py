@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
- """Retrive element from a list."""
+
     if idx < 0:
         return (None)
 

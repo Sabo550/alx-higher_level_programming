@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def no_c(my_string):
- """Remove all the character c and C from string."""
     length = len(my_string)
 
     j = 0
