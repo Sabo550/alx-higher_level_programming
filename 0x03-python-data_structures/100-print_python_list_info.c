@@ -2,7 +2,7 @@
 #include <Python.h>
 
 /**
- * print_python_list_info - prints the python list basic info
+ * print_python_list_info - prints python list info
  *
  * @p: PyObject
  * Return: no return
@@ -14,7 +14,7 @@ void print_python_list_info(PyObject *p)
 	PyObject *item;
 
 	size = Py_SIZE(p);
-	printf("[*] Size of Python List = %ld\n", size);
+	printf("[*] Size of the Python List = %ld\n", size);
 
 	list = (PyListObject *)p;
 	printf("[*] Allocated = %ld\n", list->allocated);
