@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-  """Add up the two tuples."""
     len_a = len(tuple_a)
     len_b = len(tuple_b)
 
